@@ -1,4 +1,4 @@
-log = console.log
+// log = console.log
 /*
 expect = require('chai').expect
 should = require('chai').should()

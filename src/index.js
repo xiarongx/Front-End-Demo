@@ -1,4 +1,3 @@
-//_ = require('lodash')
 alwaysTrue = ()=> true
 legitString = (someInput) => lodash.isString(someInput) && someInput.length > 0
 
