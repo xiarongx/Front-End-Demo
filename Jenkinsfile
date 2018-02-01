@@ -12,7 +12,8 @@ node('master'){
 
         stage('front end test'){
             bat "npm run test"
-            junit 'testResult/*.xml'
+            step([$class: 'JUnitResultArchiver', testResults: 'testResult/*.xml'])
+
         }
 
         stage('archive'){
