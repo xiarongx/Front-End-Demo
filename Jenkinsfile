@@ -1,6 +1,6 @@
 #!/user/bin/env groovy
 node('master'){
-    try{
+    //try{
 
         stage('check out'){
             checkout scm
@@ -19,12 +19,12 @@ node('master'){
             archiveArtifacts "src/**/*"
             archiveArtifacts "package.json"
         }
-
+/*
     }
     catch(error){
         throw error
     }
     finally{
 
-    }
+    }*/
 }
