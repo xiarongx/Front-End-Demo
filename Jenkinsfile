@@ -22,7 +22,7 @@ node('master'){
 
     }
     catch(error){
-        // throw error
+        throw error
     }
     finally{
 

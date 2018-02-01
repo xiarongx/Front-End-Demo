@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
-<testsuite name="Chrome 63.0.3239 (Windows 7.0.0)" package="models" timestamp="2018-02-01T16:18:48" id="0" hostname="RST-LTCXU" tests="9" errors="0" failures="2" time="0.005">
+<testsuite name="Chrome 63.0.3239 (Windows 7.0.0)" package="models" timestamp="2018-02-01T16:35:43" id="0" hostname="RST-LTCXU" tests="9" errors="0" failures="2" time="0.003">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"/>
   </properties>
   <testcase name="#mocha basics true should be true" time="0.001" classname="Chrome_63_0_3239_(Windows_7_0_0).models.#mocha basics"/>
-  <testcase name="#mocha basics I expect true to be true" time="0.001" classname="Chrome_63_0_3239_(Windows_7_0_0).models.#mocha basics"/>
+  <testcase name="#mocha basics I expect true to be true" time="0" classname="Chrome_63_0_3239_(Windows_7_0_0).models.#mocha basics"/>
   <testcase name="#alwaysTrue should always return true" time="0" classname="Chrome_63_0_3239_(Windows_7_0_0).models.#alwaysTrue"/>
-  <testcase name="#alwaysTrue I expect it always be true" time="0.001" classname="Chrome_63_0_3239_(Windows_7_0_0).models.#alwaysTrue"/>
+  <testcase name="#alwaysTrue I expect it always be true" time="0" classname="Chrome_63_0_3239_(Windows_7_0_0).models.#alwaysTrue"/>
   <testcase name="#alwaysTrue should not be false" time="0" classname="Chrome_63_0_3239_(Windows_7_0_0).models.#alwaysTrue"/>
-  <testcase name="#index initial conditions total salary should equal expected total salary" time="0.001" classname="Chrome_63_0_3239_(Windows_7_0_0).models.#index initial conditions">
+  <testcase name="#index initial conditions total salary should equal expected total salary" time="0.002" classname="Chrome_63_0_3239_(Windows_7_0_0).models.#index initial conditions">
     <failure type="">AssertionError: expected 3000 to equal 8000
-    at Context.it (absolutec:/Users/cxu/Documents/CI/Chandler/my%20code/NodeJS/Practices/Jan31/test/index.test.js?e374fc4b6e9664d571578b0303e57367d9d459c7:49:35)
+    at Context.it (absolutec:/Users/cxu/Documents/CI/Chandler/my%20code/NodeJS/Practices/Jan31/test/index.test.js?cce5ecfb177446642a4302df7fd509e8693646bf:49:35)
 </failure>
   </testcase>
-  <testcase name="#index initial conditions department bonus should equal expected department bonus" time="0.001" classname="Chrome_63_0_3239_(Windows_7_0_0).models.#index initial conditions"/>
+  <testcase name="#index initial conditions department bonus should equal expected department bonus" time="0" classname="Chrome_63_0_3239_(Windows_7_0_0).models.#index initial conditions"/>
   <testcase name="#index initial conditions job bonus should equal expected job bonus" time="0" classname="Chrome_63_0_3239_(Windows_7_0_0).models.#index initial conditions"/>
   <testcase name="#index initial conditions total bonus should equal expected toal bonus" time="0" classname="Chrome_63_0_3239_(Windows_7_0_0).models.#index initial conditions">
     <failure type="">AssertionError: expected 0 to equal 5000
-    at Context.it (absolutec:/Users/cxu/Documents/CI/Chandler/my%20code/NodeJS/Practices/Jan31/test/index.test.js?e374fc4b6e9664d571578b0303e57367d9d459c7:64:34)
+    at Context.it (absolutec:/Users/cxu/Documents/CI/Chandler/my%20code/NodeJS/Practices/Jan31/test/index.test.js?cce5ecfb177446642a4302df7fd509e8693646bf:64:34)
 </failure>
   </testcase>
   <system-out>

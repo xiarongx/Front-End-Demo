@@ -1,5 +1,5 @@
+// simple function to test
 alwaysTrue = ()=> true
-legitString = (someInput) => lodash.isString(someInput) && someInput.length > 0
 
 // expose person for testing purpose
 getPerson = ()=> person;
