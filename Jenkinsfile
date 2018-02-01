@@ -1,6 +1,6 @@
 #!/user/bin/env groovy
 node('master'){
-    //try{
+    try{
 
         stage('check out'){
             checkout scm
@@ -12,20 +12,19 @@ node('master'){
 
         stage('front end test'){
             bat "npm run test"
-            step([$class: 'JUnitResultArchiver', testResults: 'testResult/*.xml'])
-
+            
         }
 
         stage('archive'){
             archiveArtifacts "src/**/*"
             archiveArtifacts "package.json"
         }
-/*
+
     }
     catch(error){
         throw error
     }
     finally{
-
-    }*/
+            junit 'testResult/*.xml'
+    }
 }
