@@ -20,7 +20,7 @@ class Person{
         this.job = job;
         this.baseSalary = 3000;
         this.calculateBonus();
-        this.totalBonus = 0
+        //this.totalBonus = 0
         this.totalSalary = 0;
         this.calculateTotalSalary();
     }
