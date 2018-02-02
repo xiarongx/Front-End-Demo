@@ -6,9 +6,11 @@ module.exports = {
     files: [
         // Paths of your source and test scripts
         '../src/index.js',
-        '../test/index.test.js'
+        '../test/index.test.js',
+        '../src/app.js',
+        '../test/app.test.js'
     ],
-    //customContextFile: path.resolve('./test/fixture.html'),
+    customContextFile: path.resolve('./test/fixture.html'),
     reporters: ['spec','junit'],
     junitReporter: {
         outputDir: '../testResult',
